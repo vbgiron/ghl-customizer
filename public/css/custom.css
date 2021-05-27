@@ -1,0 +1,89 @@
+body {
+    background: #F4F5FA;
+}
+div#app {
+    width: 100vw;
+    height: 100vh;
+}
+.navbar {
+    position: absolute;
+    height: 100%;
+    width: 250px;
+    display: block;
+    z-index: 9;
+}
+main {
+    padding-left: 250px;
+}
+.right-sidebar {
+    padding: 10px 15px;
+    background: #fff;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.left-sidebar ul {
+    flex-direction: column !important;
+    margin-top: 15px;
+}
+.left-sidebar ul li {
+    padding: 10px 25px;
+}
+.left-sidebar ul li.active {
+    background: #D6ECD2;
+}
+
+.left-sidebar ul li.active a {
+    font-weight: bold;
+    opacity: 1;
+}
+.left-sidebar ul li a { 
+    color: #0a1125;
+    font-size: 16px;
+    font-weight: normal;
+    display: block;
+    opacity: 0.6;
+}
+.left-sidebar ul li a svg {
+    margin-right: 10px !important;
+}
+.logo{
+    padding: 25px !important;
+}
+a {
+    text-decoration: none !important;
+    color: #000 !important;
+}
+a.navbar-brand img {
+    width: 100%;
+}
+#dashboard .card-header {
+    border-bottom: 0;
+    background-color: unset;
+}
+#dashboard .card-header h3 {
+    font-size: 16px;
+    line-height: 1.4em;
+    font-weight: 700;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+#dashboard .card-body span {
+    color: #0a1125;
+    font-size: 42px;
+    line-height: 0.9em;
+    font-weight: 700;
+}
+#dashboard h2 {
+    font-size: 32px;
+    line-height: 1.3em;
+    font-weight: 700;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.no-result span {
+    font-size: unset !important;
+    font-weight: unset !important;
+}
