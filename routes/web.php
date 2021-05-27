@@ -14,7 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    $url = "https://app.goacquirely.com";
+
+    return Redirect::to($url);
+
+    // return view('welcome');
 });
 
 Auth::routes();
