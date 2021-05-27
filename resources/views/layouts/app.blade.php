@@ -52,7 +52,7 @@
             </div>
         </nav>
 
-        <main class="pb-4">
+        <main class="pb-4 logged">
             
             <div class="right-sidebar">
                 <ul class="navbar-nav ml-auto">

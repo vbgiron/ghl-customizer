@@ -12,7 +12,7 @@ div#app {
     display: block;
     z-index: 9;
 }
-main {
+main.logged{
     padding-left: 250px;
 }
 .right-sidebar {
